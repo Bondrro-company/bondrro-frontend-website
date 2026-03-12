@@ -14,9 +14,9 @@ export class Header {
 
  constructor(private translate: TranslateService) {
 
-  const savedLang = localStorage.getItem('lang') || 'en';
+  const savedLang = localStorage.getItem('lang') || 'de';
 
-  this.translate.setDefaultLang('en');
+  this.translate.setDefaultLang('de');
   this.translate.use(savedLang);
 
   this.selectedLang = this.languages.find(l =>
