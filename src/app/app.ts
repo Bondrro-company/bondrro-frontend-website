@@ -5,6 +5,7 @@ import { Footer } from "./components/footer/footer";
 import { AppDownloadPopup } from './components/app-download-popup/app-download-popup';
 import { CommonModule } from '@angular/common';
 import { CookieConsent } from "./components/cookie-consent/cookie-consent";
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,9 @@ import { CookieConsent } from "./components/cookie-consent/cookie-consent";
   styleUrl: './app.css'
 })
 export class App {
+  constructor(private translate: TranslateService) {
+  this.translate.use('de');
+}
   protected readonly title = signal('bondroo');
   showPopup = false;
 
