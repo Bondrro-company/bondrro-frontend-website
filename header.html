@@ -1,0 +1,165 @@
+<header class="w-full bg-white fixed top-0 left-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 lg:px-8">
+
+    <div class="flex items-center justify-between py-4">
+
+      <!-- LOGO -->
+      <a routerLink="/home">
+        <img src="images/logo.png" class="w-48" alt="Bondrro">
+      </a>
+
+
+      <!-- DESKTOP NAV -->
+      <nav class="hidden lg:flex items-center gap-8 text-black text-lg">
+
+        <a routerLink="/home"
+           routerLinkActive="text-[#0D63AA] border-b-2 border-[#0D63AA]"
+           [routerLinkActiveOptions]="{ exact: true }"
+           class="pb-1 hover:text-[#0D63AA] transition">
+          {{ 'nav.home' | translate }}
+        </a>
+
+        <a routerLink="/how-its-work"
+           routerLinkActive="text-[#0D63AA] border-b-2 border-[#0D63AA]"
+           class="pb-1 hover:text-[#0D63AA] transition">
+          {{ 'nav.how_it_works' | translate }}
+        </a>
+
+        <a routerLink="/faq"
+           routerLinkActive="text-[#0D63AA] border-b-2 border-[#0D63AA]"
+           class="pb-1 hover:text-[#0D63AA] transition">
+          {{ 'nav.faq' | translate }}
+        </a>
+
+        <a routerLink="/about-us"
+           routerLinkActive="text-[#0D63AA] border-b-2 border-[#0D63AA]"
+           class="pb-1 hover:text-[#0D63AA] transition">
+          {{ 'nav.about_us' | translate }}
+        </a>
+
+        <a routerLink="/contact-us"
+           routerLinkActive="text-[#0D63AA] border-b-2 border-[#0D63AA]"
+           class="pb-1 hover:text-[#0D63AA] transition">
+          {{ 'nav.contact_us' | translate }}
+        </a>
+
+      </nav>
+
+
+      <!-- RIGHT SIDE -->
+      <div class="flex items-center gap-6">
+
+        <!-- DESKTOP LANGUAGE -->
+        <div class="relative hidden lg:block">
+
+          <button (click)="toggleLang()"
+                  class="flex items-center gap-2 text-lg">
+
+            <img [src]="selectedLang.flag" class="w-5 h-4">
+            {{ selectedLang.code }}
+            <i class="fa-solid fa-chevron-down text-xs"></i>
+
+          </button>
+
+          <div *ngIf="langOpen"
+               class="absolute right-0 mt-3 w-40 bg-white shadow-lg rounded-md border py-2">
+
+            <button *ngFor="let lang of languages"
+                    (click)="selectLang(lang)"
+                    class="flex items-center gap-2 px-4 py-2 hover:bg-gray-100 w-full">
+
+              <img [src]="lang.flag" class="w-5 h-4">
+              {{ lang.name }}
+
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <!-- DOWNLOAD BUTTON -->
+        <button (click)="openDownloadPopup()"
+                class="hidden lg:flex bg-[#1F66A5] text-white px-10 py-3 rounded-full text-lg hover:bg-[#185387] transition">
+          {{ 'nav.download_app' | translate }}
+        </button>
+
+
+        <!-- MOBILE MENU BUTTON -->
+      <button class="lg:hidden text-2xl" (click)="toggleMenu()">
+  <i class="fa-solid fa-bars"></i>
+</button>
+
+      </div>
+
+    </div>
+
+  </div>
+</header>
+
+
+
+<!-- MOBILE MENU -->
+<div class="fixed top-0 left-0 h-full w-72 bg-white shadow-lg transform transition-transform duration-300 z-50"
+     [ngClass]="isOpen ? 'translate-x-0' : '-translate-x-full'">
+
+  <div class="p-6 flex justify-between items-center border-b">
+    <span class="text-lg font-semibold">Menu</span>
+
+
+  </div>
+
+
+  <nav class="flex flex-col p-6 gap-6 text-black text-lg">
+
+    <a routerLink="/home" (click)="toggleMenu()">
+      {{ 'nav.home' | translate }}
+    </a>
+
+    <a routerLink="/how-its-work" (click)="toggleMenu()">
+      {{ 'nav.how_it_works' | translate }}
+    </a>
+
+    <a routerLink="/faq" (click)="toggleMenu()">
+      {{ 'nav.faq' | translate }}
+    </a>
+
+    <a routerLink="/about-us" (click)="toggleMenu()">
+      {{ 'nav.about_us' | translate }}
+    </a>
+
+    <a routerLink="/contact-us" (click)="toggleMenu()">
+      {{ 'nav.contact_us' | translate }}
+    </a>
+
+
+    <!-- MOBILE LANGUAGE -->
+    <div class="pt-6 border-t mt-6">
+
+      <p class="text-sm font-semibold mb-3">
+        {{ 'nav.language' | translate }}
+      </p>
+
+      <button *ngFor="let lang of languages"
+              (click)="selectLang(lang)"
+              class="flex items-center gap-3 py-2 w-full">
+
+        <img [src]="lang.flag" class="w-5 h-4">
+        {{ lang.name }}
+
+        <i *ngIf="selectedLang.code === lang.code"
+           class="fa-solid fa-check text-[#0D63AA] ml-auto"></i>
+
+      </button>
+
+    </div>
+
+  </nav>
+
+</div>
+
+
+<!-- OVERLAY -->
+<div *ngIf="isOpen"
+     class="fixed inset-0 bg-black/40 z-40 lg:hidden"
+     (click)="toggleMenu()"></div>

@@ -1,0 +1,409 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "how_it_works": "So funktioniert's",
+    "faq": "FAQ",
+    "about_us": "Über uns",
+    "contact_us": "Kontakt",
+    "download_app": "App herunterladen",
+    "language": "DE"
+  },
+  "popup": {
+    "download": {
+      "title": "Lade jetzt die App herunter &",
+      "title_highlight": "erstelle dein Profil in nur 2 Minuten",
+      "subtitle": "Scanne den QR-Code und werde Teil unserer Community!",
+      "google_play": "Bei Google Play",
+      "app_store": "Im App Store"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Versende Artikel sicher mit verifizierten Reisenden",
+      "subtitle": "Bondrro ist eine App für Lieferungen durch die Community, die Absender mit verifizierten Reisenden verbindet, um Artikel zuzustellen.",
+      "cta": "App herunterladen"
+    },
+    "what_is": {
+      "title_part1": "Was ist",
+      "title_part2": "Bondrro?",
+      "p1": "Bondrro ist eine vertrauenswürdige Crowd-Delivery-App, die Menschen, die Pakete oder Dokumente verschicken möchten, mit verifizierten Reisenden verbindet, die dasselbe Ziel ansteuern.",
+      "p2": "Durch die Nutzung von freiem Kofferraum- oder Gepäckraum bei bestehenden Reisen ermöglicht Bondrro schnellere Lieferungen als traditionelle Kurierdienste.",
+      "p3": "Absender können ihre Lieferungen vertrauensvoll aufgeben, während Reisende auf Reisen, die sie ohnehin unternehmen, dazuverdienen. Das macht jede Reise lohnender und nachhaltiger, da zusätzliche CO₂-Emissionen vermieden werden."
+    },
+    "trust": {
+      "title": "Ihr Vertrauen & Ihre Sicherheit stehen",
+      "titlespan": "an erster Stelle",
+      "subtitle": "Wir haben mehrere Schutzebenen aufgebaut, um jede Lieferung sicher, transparent und zuverlässig zu gestalten. Von der Zustellung bis zur Zahlung schützt Bondrro sowohl Absender als auch Reisende während der gesamten Reise.",
+      "escrow": {
+        "title": "Treuhandzahlungsschutz",
+        "desc": "Reisende werden erst bezahlt, wenn der Artikel erfolgreich zugestellt und bestätigt wurde."
+      },
+      "identity": {
+        "title": "Identitätsüberprüfung",
+        "desc": "Alle Nutzer werden verifiziert, um eine vertrauenswürdige und verantwortungsbewusste Gemeinschaft zu gewährleisten."
+      },
+      "review": {
+        "title": "Gegenseitiges Bewertungssystem",
+        "desc": "Sowohl Absender als auch Reisende bewerten sich nach der Lieferung gegenseitig, um Qualität und Vertrauen aufrechtzuerhalten."
+      },
+      "pricing": {
+        "title": "Faire & transparente Preisgestaltung",
+        "desc": "Absender und Reisende vereinbaren den Preis gemeinsam – klar, flexibel und fair."
+      },
+      "tracking": {
+        "title": "Echtzeit-Tracking",
+        "desc": "Verfolge den Fortschritt deiner Lieferung in der App bei jedem Schritt."
+      },
+      "insurance": {
+        "title": "Versicherungsschutz",
+        "desc": "Eine optionale Versicherung schützt deine Artikel für zusätzliche Sicherheit."
+      },
+      "support": {
+        "title": "24/7 Kundensupport",
+        "desc": "Unser Support-Team ist immer für dich da, wenn du Hilfe brauchst."
+      }
+    },
+    "why": {
+      "title_part1": "Warum",
+      "title_part2": "Bondrro wählen?",
+      "subtitle": "Eine intelligentere, schnellere und menschlichere Art, Artikel zu versenden und zu liefern. Aufgebaut rund um echte Reisen, echte Menschen und echtes Vertrauen.",
+      "fast_delivery": {
+        "title": "Schnelle Lieferung",
+        "desc": "Liefere Artikel mit echten Reisen lokal oder international aus, oft innerhalb von Stunden oder einem Tag."
+      },
+      "affordable": {
+        "title": "Bezahlbare Preise",
+        "desc": "Absender und Reisende vereinbaren faire Preise direkt, ohne versteckte Gebühren oder überhöhte Kurierkosten."
+      },
+      "trusted": {
+        "title": "Vertrauenswürdiges Netzwerk",
+        "desc": "Verifizierte Nutzer, gegenseitige Bewertungen und klare Verantwortlichkeiten bei jedem Schritt der Lieferung."
+      },
+      "guarantee": {
+        "title": "Liefergarantie",
+        "desc": "Die Zahlung wird erst nach Bestätigung der Lieferung freigegeben – oder du erhältst eine vollständige Rückerstattung."
+      },
+      "eco": {
+        "title": "Umweltfreundliche Lieferung",
+        "desc": "Reduziere CO₂-Emissionen, indem du bestehende Reisewege nutzt, anstatt neuen Transport zu schaffen."
+      },
+      "simple_app": {
+        "title": "Einfache App-Erfahrung",
+        "desc": "Gib Sendungen oder Reisen auf, kommuniziere, verfolge und bestätige Lieferungen einfach in einer intuitiven App."
+      },
+      "flexible": {
+        "title": "Flexible Terminplanung",
+        "desc": "Von Lieferungen am selben Tag bis zu geplanten Reisen – wähle, was in deinen Zeitplan passt."
+      },
+      "end_to_end": {
+        "title": "End-to-End-Lieferung",
+        "desc": "Direkte Lieferung vom Absender zum Reisenden, ohne Zwischenhändler oder unnötige Handhabung."
+      }
+    },
+    "emissions": {
+      "title": "Emissionsreduzierung durch gemeinsame Reisen",
+      "p1": "Bondrro basiert auf einer einfachen Idee: Nutze Reisen, die bereits stattfinden.",
+      "p2": "Indem Bondrro Absender mit Reisenden verbindet, die bereits unterwegs sind, hilft es, unnötigen Transport zu reduzieren und die Schaffung neuer Lieferwege zu vermeiden.",
+      "approach": "Dieser Ansatz:",
+      "bullet1": "senkt CO₂-Emissionen",
+      "bullet2": "reduziert Staus",
+      "bullet3": "macht Lieferungen umweltverträglicher"
+    },
+    "referral": {
+      "title": "Lade Freunde ein & erhalte Belohnungen",
+      "subtitle": "Lade deine Freunde zu Bondrro ein und erhalte 25 % Rabatt auf deine nächste Lieferung.",
+      "cta": "App herunterladen"
+    }
+  },
+  "trust": {
+    "data_protection": "Datenschutzkonform",
+    "data_protection_sub": "Gemäß DSGVO",
+    "ssl": "SSL-Verschlüsselung",
+    "ssl_sub": "Zertifiziert & Sicher",
+    "servers": "Server in Europa",
+    "servers_sub": "EU-Datenschutz"
+  },
+  "newsletter": {
+    "title": "Werde Teil der Bondrro-Community",
+    "subtitle": "Erhalte Updates zu neuen Funktionen, Liefertipps & exklusive Angebote",
+    "placeholder": "Gib deine E-Mail-Adresse ein",
+    "subscribe": "Abonnieren",
+    "consent": "Ich bin damit einverstanden, Newsletter von Bondrro zu erhalten. Ich kann mich jederzeit abmelden. Siehe unsere Datenschutzerklärung."
+  },
+  "footer": {
+    "verified_users": "Verifizierte Nutzer",
+    "secure_payment": "Sichere Zahlung",
+    "contact_label": "Hast du Fragen? Kontaktiere uns unter:",
+    "contact_email": "Contact@bondrro.com",
+    "navigation": "Navigation",
+    "about_us": "Über uns",
+    "contact_us": "Kontakt",
+    "faq": "FAQ",
+    "legal": "Rechtliches",
+    "privacy_policy": "Datenschutzerklärung",
+    "terms_conditions": "AGB",
+    "imprint": "Impressum",
+    "disclaimer": "Haftungsausschluss",
+    "cookie_settings": "Cookie-Einstellungen",
+    "download": "Download",
+    "google_play_label": "Jetzt bei",
+    "google_play": "Google Play",
+    "app_store_label": "Laden im",
+    "app_store": "App Store",
+    "copyright": "© 2026 Bondrro. Alle Rechte vorbehalten."
+  },
+  "contact": {
+    "hero": {
+      "title": "Kontaktiere uns",
+      "subtitle": "Wir sind für dich da. Sende uns eine Nachricht und wir melden uns innerhalb von 24 Stunden bei dir."
+    },
+    "section": {
+      "title": "Nimm Kontakt auf",
+      "desc": "Benötigst du Hilfe oder hast du eine Frage zu Bondrro? Sende uns über das untenstehende Kontaktformular eine Nachricht und unser Support-Team wird sich in Kürze bei dir melden.",
+      "direct": "Du kannst uns auch direkt kontaktieren unter"
+    },
+    "email": "support@bondrro.com",
+    "success": {
+      "title": "Deine Nachricht wurde erfolgreich gesendet.",
+      "desc": "Unser Support-Team wird deine Nachricht prüfen und sich innerhalb von 24 Stunden bei dir melden."
+    },
+    "form": {
+      "first_name": "Vorname",
+      "first_name_placeholder": "Dein Vorname",
+      "last_name": "Nachname",
+      "last_name_placeholder": "Dein Nachname",
+      "email": "E-Mail-Adresse",
+      "email_placeholder": "Deine E-Mail-Adresse",
+      "title": "Nachricht",
+      "message": "Schreibe deine Nachricht hier",
+      "consent": "Ich habe die Datenschutzerklärung gelesen und stimme zu, dass meine Daten zum Zweck der Bearbeitung meiner Anfrage verarbeitet werden dürfen.",
+      "submit": "Absenden"
+    }
+  },
+  "hiw": {
+    "hero": {
+      "title": "Wie funktioniert Bondrro?",
+      "subtitle": "Egal, ob du einen Artikel versenden oder reisen & verdienen möchtest – Bondrro macht es einfach, sicher und transparent von Anfang bis Ende."
+    },
+    "senders": {
+      "title": "Für Absender",
+      "subtitle": "Ein sicherer, app-basierter Prozess, der dich von Anfang bis Ende die Kontrolle behält.",
+      "step1": {
+        "title": "Erstelle dein Konto",
+        "desc": "Melde dich an und schließe die ID-Verifizierung ab, um Teil einer vertrauenswürdigen Community zu werden."
+      },
+      "step2": {
+        "title": "Gib deine Sendung auf",
+        "desc": "Gib deine Sendung mit Details wie Artikel, Gewicht und Lieferziel auf."
+      },
+      "step3": {
+        "title": "Finde einen Treffer",
+        "desc": "Durchsuche verfügbare Reisen oder erhalte Routenvorschläge, die zu deinem Ziel passen."
+      },
+      "step4": {
+        "title": "Preis bestätigen & Zahlung sichern",
+        "desc": "Vereinbare einen Preis mit dem Reisenden für die Lieferung. Die Zahlung wird bis zur erfolgreichen Zustellung sicher per Treuhand verwahrt."
+      },
+      "step5": {
+        "title": "Erhalte deine Lieferung",
+        "desc": "Koordiniere Abholung und Übergabe, verfolge die Sendung in Echtzeit und bestätige die Lieferung nach Erhalt."
+      }
+    },
+    "travelers": {
+      "title": "Für Reisende",
+      "subtitle": "Keine zusätzliche Reise erforderlich. Nimm einfach Artikel auf deiner bestehenden Route mit und werde bezahlt.",
+      "step1": {
+        "title": "Erstelle dein Konto",
+        "desc": "Melde dich an und schließe die ID-Verifizierung für ein sicheres Erlebnis ab."
+      },
+      "step2": {
+        "title": "Gib deine Reise bekannt",
+        "desc": "Gib deine Reisedaten, Route und die Art der Artikel an, die du mitnehmen möchtest."
+      },
+      "step3": {
+        "title": "Finde einen Treffer",
+        "desc": "Entdecke passende Versandanfragen oder erhalte intelligente Vorschläge basierend auf deiner Reiseroute."
+      },
+      "step4": {
+        "title": "Preis bestätigen & Lieferung arrangieren",
+        "desc": "Bestätige den Lieferpreis mit dem Absender und koordiniere die Abhol- und Übergabemodalitäten."
+      },
+      "step5": {
+        "title": "Liefern & bezahlt werden",
+        "desc": "Liefere den Artikel sicher ab. Sobald die Lieferung bestätigt ist, wird deine Zahlung automatisch freigegeben."
+      }
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "subtitle": "Lade jetzt die App herunter & erstelle dein Profil in nur 2 Minuten",
+      "faq_link": "Hast du Fragen? Finde Antworten in unserem FAQ"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Hast du Fragen?",
+      "subtitle": "Finde unten Antworten auf die häufigsten Fragen",
+      "contact_text": "Wenn du noch Hilfe benötigst, kontaktiere uns."
+    },
+    "section_title": "FAQ",
+    "tab": {
+      "sender": "Absender",
+      "traveler": "Reisende",
+      "payment": "Zahlung"
+    },
+    "sender": {
+      "q1": "Wie versende ich einen Artikel mit Bondrro?",
+      "a1": "Erstelle einfach ein Konto, verifiziere deine Identität und gib eine Versandanfrage auf. Verifizierte Reisende, die in die gleiche Richtung unterwegs sind, können Angebote senden, oder du wählst aus passenden Reisen. Sobald ihr euch auf den Preis geeinigt habt, wird die Zahlung per Treuhand gesichert, bis die Lieferung bestätigt ist.",
+      "q2": "Woher weiß ich, dass der Reisende vertrauenswürdig ist?",
+      "a2": "Alle Reisenden auf Bondrro durchlaufen eine Identitätsüberprüfung (KYC).",
+      "q3": "Wie schnell kann mein Artikel zugestellt werden?",
+      "a3": {
+        "p1": "Die Liefergeschwindigkeit hängt von der bestehenden Route des Reisenden ab. Viele Lieferungen erfolgen:",
+        "bullet1": "International: innerhalb von 24–72 Stunden",
+        "bullet2": "National: am selben Tag oder innerhalb weniger Stunden",
+        "p2": "Da Artikel auf tatsächlich stattfindenden Reisen mitreisen, ist die Lieferung oft schneller als bei traditionellen Kurieren."
+      },
+      "q4": "Kann ich meine Sendung verfolgen?",
+      "a4": "Ja. Bondrro bietet Echtzeit-Fortschrittsupdates und In-App-Kommunikation mit dem Reisenden, sodass du immer über den Lieferstatus Bescheid weißt.",
+      "q5": "Was passiert, wenn mein Artikel nicht zugestellt wird?",
+      "a5": "Deine Zahlung ist durch das Treuhandkonto geschützt. Der Reisende erhält die Zahlung erst nach Bestätigung der Lieferung. Falls die Lieferung fehlschlägt, prüft der Streitbeilegungsprozess von Bondrro den Fall und kann gemäß den Plattformrichtlinien eine vollständige Rückerstattung veranlassen.",
+      "q6": "Wie wird der Lieferpreis festgelegt?",
+      "a6": "Die Preise werden zwischen Absender und Reisendem über die Plattform vereinbart.",
+      "q7": "Muss ich den Reisenden persönlich treffen?",
+      "a7": {
+        "p1": "Abhol- und Übergabemodalitäten sind flexibel. Du kannst:",
+        "bullet1": "sich persönlich treffen",
+        "bullet2": "eine vertrauenswürdige Kontaktperson benennen",
+        "bullet3": "einen sicheren Treffpunkt vereinbaren",
+        "bullet4": "oder die Artikel dem Reisenden per Post zusenden"
+      },
+      "q8": "Kann ich eine Versandanfrage stornieren?",
+      "a8": "Ja. Du kannst stornieren, bevor ein Reisender die Anfrage annimmt oder bevor die Zahlung bestätigt wird. Nach Abschluss der Vereinbarungen können Stornierungsbedingungen gelten."
+    },
+    "traveler": {
+      "q1": "Wie kann ich als Reisender Geld verdienen?",
+      "a1": "Gib deine geplante Reise und deinen verfügbaren Gepäckraum bekannt. Absender, die Lieferungen entlang deiner Route benötigen, können mit dir übereinstimmen. Alternativ kannst du selbst Lieferanfragen für Artikel stellen, die zu deiner Route und deinem Gepäckraum passen. Nach erfolgreicher Lieferbestätigung wird deine Zahlung automatisch freigegeben.",
+      "q2": "Muss ich zusätzliche Strecken fahren?",
+      "a2": "Nein. Bondrro ist für Reisen konzipiert, die du ohnehin unternimmst. Du nimmst einfach Artikel auf deiner bestehenden Route mit.",
+      "q3": "Wie werde ich ein verifizierter Reisender?",
+      "a3": "Du musst eine Identitätsüberprüfung über unseren vertrauenswürdigen Drittanbieter abschließen. Dies gewährleistet Sicherheit für alle auf der Plattform.",
+      "q4": "Was ist, wenn während der Lieferung etwas schiefgeht?",
+      "a4": "Bondrro bietet Support und Streitbeilegung. Kommunikationsaufzeichnungen und Lieferbestätigungen helfen, jedes Problem fair zu lösen.",
+      "q5": "Wann werde ich bezahlt?",
+      "a5": "Deine Zahlung wird sicher per Treuhand verwahrt und automatisch freigegeben, sobald sowohl Absender als auch Reisender die erfolgreiche Lieferung bestätigen.",
+      "q6": "Kann ich Lieferanfragen ablehnen?",
+      "a6": "Ja. Du kannst jede Anfrage annehmen oder ablehnen. Du kontrollierst, was du wann mitnimmst.",
+      "q7": "Bin ich für Zoll oder Vorschriften verantwortlich?",
+      "a7": "Ja. Reisende müssen die lokalen Gesetze und Zollbestimmungen des Ziellandes einhalten. Überprüfe immer die Legalität eines Artikels, bevor du eine Lieferung annimmst.",
+      "q8": {
+        "title": "Wie schützt Bondrro Reisende?",
+        "intro": "Bondrro schützt Reisende durch:",
+        "bullet1": "verifizierte Absender",
+        "bullet2": "sichere In-App-Kommunikation",
+        "bullet3": "Treuhandzahlungsgarantie",
+        "bullet4": "Bewertungssystem",
+        "bullet5": "Streitvermittlung"
+      }
+    },
+    "payment": {
+      "q1": "Wie funktioniert die Zahlung auf Bondrro?",
+      "a1": "Nachdem sich Absender und Reisender auf einen Preis geeinigt haben, bezahlt der Absender über die App. Die Zahlung wird bis zum Abschluss und Bestätigung der Lieferung sicher per Treuhand verwahrt.",
+      "q2": "Was ist der Treuhandzahlungsschutz?",
+      "a2": {
+        "p1": "Treuhand bedeutet, dass Bondrro die Zahlung während der Lieferung sicher verwahrt.",
+        "bullet1": "Dem Reisenden wird die Zahlung nach erfolgreicher Lieferung garantiert.",
+        "bullet2": "Der Absender ist geschützt, falls die Lieferung fehlschlägt."
+      },
+      "q3": "Wann wird der Reisende bezahlt?",
+      "a3": "Die Zahlung wird automatisch freigegeben, sobald die Lieferbestätigung von beiden Parteien abgeschlossen ist.",
+      "q4": "Gibt es Servicegebühren?",
+      "a4": "Ja. Bondrro erhebt eine transparente Plattformgebühr zur Unterstützung sicherer Zahlungen, Verifizierung und Plattformbetrieb. Gebühren werden vor Zahlungsbestätigung angezeigt.",
+      "q5": "Was passiert im Streitfall?",
+      "a5": {
+        "p1": "Bondrro prüft Beweise wie:",
+        "bullet1": "Chatverlauf",
+        "bullet2": "Lieferbestätigung",
+        "bullet3": "Fotos oder Dokumentation",
+        "p2": "Es wird eine faire Lösung gefunden, die Rückerstattungen oder Zahlungsanpassungen umfassen kann."
+      },
+      "q6": "Sind meine Zahlungsdaten sicher?",
+      "a6": "Ja. Bondrro verwendet verschlüsselte Zahlungsabwicklung und eine sichere Infrastruktur, um deine Finanzdaten zu schützen.",
+      "q7": "Kann ich eine Rückerstattung erhalten?",
+      "a7": {
+        "p1": "Rückerstattungen können gewährt werden, wenn:",
+        "bullet1": "die Lieferung nicht abgeschlossen wird",
+        "bullet2": "Vereinbarungen verletzt werden",
+        "bullet3": "Streitigkeiten zu deinen Gunsten entschieden werden"
+      },
+      "q8": "Gibt es versteckte Kosten?",
+      "a8": "Nein. Bondrro folgt einer transparenten Preisgestaltung – alle Kosten werden vor der Zahlung angezeigt.",
+      "q9": "Wickelt Bondrro internationale Zahlungen ab?",
+      "a9": "Ja. Zahlungen werden digital abgewickelt, was grenzüberschreitende Lieferungen ermöglicht und gleichzeitig sichere Transaktionen gewährleistet."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Über Bondrro",
+      "tagline": "Vertrauen, Menschliche Verbindung & Selbstbestimmung",
+      "desc": "Bondrro verbindet Menschen, die Artikel versenden möchten, mit verifizierten Reisenden, die bereits in die gleiche Richtung unterwegs sind. Wir glauben, dass Lieferungen schneller, erschwinglicher und persönlicher sein können – ohne zusätzliche Transportwege zu schaffen."
+    },
+    "why": {
+      "title": "Warum wir Bondrro gegründet haben?",
+      "p1": "Jemandem, der dir am Herzen liegt, etwas zu schicken, sollte sich nicht kompliziert oder unpersönlich anfühlen.",
+      "p2": "Wir haben Bondrro gegründet, um Lieferungen menschlicher zu gestalten. Anstatt uns nur auf traditionelle Kuriersysteme zu verlassen, sahen wir eine Chance in den Reisen, die jeden Tag stattfinden.",
+      "bullet1": "Reisende haben freien Platz",
+      "bullet2": "Menschen müssen Artikel versenden",
+      "p3": "Wir haben einen sicheren Weg gebaut, sie zu verbinden.",
+      "p4": "Bondrro wurde gegründet, um die Distanz zwischen Menschen zu verringern – nicht nur physisch, sondern auch emotional."
+    },
+    "journey": {
+      "title": "Unsere Reise",
+      "idea": {
+        "title": "Die Idee",
+        "desc": "Millionen von Reisende mit ungenutztem Platz sehen und Menschen, die Lieferungen benötigen"
+      },
+      "dev": {
+        "title": "Entwicklung",
+        "desc": "Aufbau der Vertrauensinfrastruktur: KYC, Treuhandzahlung, Bewertungen & Streitbeilegung"
+      },
+      "launch": {
+        "title": "Einführung",
+        "desc": "Verbindung von Absendern und Reisenden über Städte und Grenzen hinweg via Bondrro App"
+      }
+    },
+    "mission": {
+      "title_part1": "Unsere",
+      "title_part2": "Mission",
+      "desc": "Das Versenden und Reisen vernetzter, zugänglicher und menschlicher zu gestalten. Wir wollen die Lieferung vereinfachen und gleichzeitig Vertrauen zwischen Menschen über Städte und Länder hinweg aufbauen."
+    },
+    "vision": {
+      "title_part1": "Unsere",
+      "title_part2": "Vision",
+      "desc": "Das weltweit vertrauenswürdigste liefernetzwerk aufzubauen, bei dem jede Reise einen Mehrwert schafft und Menschen sich gegenseitig über Grenzen hinweg unterstützen."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "trust": {
+        "title": "Vertrauen zuerst",
+        "desc": "Sicherheit, Transparenz und Verifizierung leiten jede Entscheidung."
+      },
+      "fairness": {
+        "title": "Fairness & Transparenz",
+        "desc": "Klare Preise, Treuhandschutz und respektvolle Interaktionen."
+      },
+      "responsibility": {
+        "title": "Verantwortung & Fürsorge",
+        "desc": "Wir schützen Artikel, Menschen und ihre Erfahrungen auf der Plattform."
+      },
+      "sustainability": {
+        "title": "Nachhaltigkeit",
+        "desc": "Durch die Nutzung bestehender Reisewege helfen wir, zusätzliche CO₂-Emissionen zu reduzieren."
+      }
+    }
+  },
+  "download_popup": {
+    "title1": "Laden Sie jetzt die App herunter &",
+    "title2": "richten Sie Ihr Profil in nur 2 Minuten ein",
+    "subtitle": "Scannen Sie den QR-Code und werden Sie Teil unserer Community!"
+  }
+}

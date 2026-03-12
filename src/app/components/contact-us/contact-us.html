@@ -1,0 +1,218 @@
+<!-- HERO -->
+<section>
+  <div class="max-w-7xl mx-auto px-4 lg:px-8">
+
+    <div
+      class="relative rounded-2xl overflow-hidden min-h-[380px] md:min-h-[450px] lg:min-h-[520px]  flex items-center justify-center"
+      style="background-image:url('images/aboutus-hero.png');background-size:cover;background-position:center"
+    >
+
+     <div class="relative z-10 px-4 sm:px-6 lg:px-16 py-8 sm:py-10 text-white text-center flex flex-col items-center gap-4">
+
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-4">
+          {{ 'contact.hero.title' | translate }}
+        </h2>
+
+        <p class="text-sm sm:text-lg lg:text-xl max-w-lg">
+          {{ 'contact.hero.subtitle' | translate }}
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- CONTACT SECTION -->
+<section class="mt-12 lg:mt-30 relative overflow-hidden">
+
+  <!-- Background -->
+  <div
+    class="absolute inset-0 bg-center bg-contain bg-no-repeat opacity-5 max-w-4xl mx-auto"
+    style="background-image:url('images/map.png')"
+  ></div>
+
+
+
+  <!-- TITLE -->
+  <div class="relative max-w-7xl mx-auto px-4 lg:px-8 text-center flex flex-col gap-5">
+
+    <div class="flex items-center justify-center gap-3 lg:gap-6">
+
+      <div class="hidden lg:block h-[2px] w-full bg-gradient-to-r from-blue-400 to-blue-100"></div>
+
+      <h2 class="text-xl sm:text-3xl lg:text-4xl font-semibold text-black text-center whitespace-nowrap">
+        {{ 'contact.section.title' | translate }}
+      </h2>
+
+      <div class="hidden lg:block h-[2px] w-full bg-gradient-to-l from-blue-400 to-blue-100"></div>
+
+    </div>
+
+    <p class="text-black max-w-3xl mx-auto text-sm sm:text-lg leading-relaxed">
+
+      {{ 'contact.section.desc' | translate }}
+      {{ 'contact.section.direct' | translate }} 
+
+      <span class="text-[#0D63AA] font-medium">
+        {{ 'contact.email' | translate }}
+      </span>
+
+    </p>
+
+  </div>
+
+
+
+  <!-- CONTACT FORM -->
+  <div class="relative max-w-7xl mx-auto mt-12 lg:mt-30 px-4 lg:px-8">
+
+    <!-- SUCCESS -->
+    <div
+      *ngIf="submitted"
+      class="mb-8 bg-green-100 text-green-700 px-4 py-4 rounded-xl text-center"
+    >
+
+      <div class="flex items-center justify-center gap-2 font-medium text-base sm:text-xl">
+        <i class="fa-solid fa-circle-check"></i>
+        {{ 'contact.success.title' | translate }}
+      </div>
+
+      <p class="text-sm sm:text-lg mt-2">
+        {{ 'contact.success.desc' | translate }}
+      </p>
+
+    </div>
+
+
+
+<div class="grid lg:grid-cols-2 gap-16 items-center max-w-5xl mx-auto">
+      <!-- IMAGE -->
+  <div class="flex justify-center items-center order-1 lg:order-none">
+
+         <img
+      src="images/contact-support.png"
+      class="rounded-xl w-full max-w-md object-contain"
+    />
+
+      </div>
+
+
+
+      <form
+    [formGroup]="contactForm"
+    (ngSubmit)="submitForm()"
+    class="space-y-6 lg:space-y-[52px] w-full max-w-md mx-auto"
+  >
+
+        <!-- FIRST / LAST -->
+        <div class="grid sm:grid-cols-2 gap-5">
+
+          <div>
+            <label class="text-sm sm:text-lg font-medium text-black">
+              {{ 'contact.form.first_name' | translate }} *
+            </label>
+
+            <input
+              type="text"
+              formControlName="firstName"
+              placeholder="{{ 'contact.form.first_name_placeholder' | translate }}"
+              class="w-full mt-2 border border-[#0D63AA] rounded-lg px-4 py-2.5 sm:py-3 outline-none focus:ring-2 focus:ring-[#0D63AA] text-sm sm:text-lg placeholder:text-sm sm:placeholder:text-lg"
+            />
+
+          </div>
+
+
+          <div>
+            <label class="text-sm sm:text-lg font-medium text-black">
+              {{ 'contact.form.last_name' | translate }} *
+            </label>
+
+            <input
+              type="text"
+              formControlName="lastName"
+              placeholder="{{ 'contact.form.last_name_placeholder' | translate }}"
+              class="w-full mt-2 border border-[#0D63AA] rounded-lg px-4 py-2.5 sm:py-3 outline-none focus:ring-2 focus:ring-[#0D63AA] text-sm sm:text-lg placeholder:text-sm sm:placeholder:text-lg"
+            />
+
+          </div>
+
+        </div>
+
+
+
+        <!-- EMAIL -->
+        <div>
+
+          <label class="text-sm sm:text-lg font-medium text-black">
+            {{ 'contact.form.email' | translate }} *
+          </label>
+
+          <input
+            type="email"
+            formControlName="email"
+            placeholder="{{ 'contact.form.email_placeholder' | translate }}"
+            class="w-full mt-2 border border-[#0D63AA] rounded-lg px-4 py-2.5 sm:py-3 outline-none focus:ring-2 focus:ring-[#0D63AA] text-sm sm:text-lg placeholder:text-sm sm:placeholder:text-lg"
+          />
+
+        </div>
+
+
+
+        <!-- MESSAGE -->
+        <div>
+
+          <label class="text-sm sm:text-lg font-medium text-black">
+            {{ 'contact.form.title' | translate }} *
+          </label>
+
+          <textarea
+            rows="4"
+            formControlName="message"
+            placeholder="{{ 'contact.form.message' | translate }}"
+            class="w-full mt-2 border border-[#0D63AA] rounded-lg px-4 py-2.5 sm:py-3 outline-none focus:ring-2 focus:ring-[#0D63AA] text-sm sm:text-lg placeholder:text-sm sm:placeholder:text-lg"
+          ></textarea>
+
+        </div>
+
+
+
+        <!-- PRIVACY -->
+        <div class="flex items-start gap-3 text-sm sm:text-base text-black">
+
+          <input
+            type="checkbox"
+            formControlName="privacy"
+            class="mt-1"
+          />
+
+          <p>
+            {{ 'contact.form.consent' | translate }}
+          </p>
+
+        </div>
+
+
+
+        <!-- SUBMIT -->
+        <button
+          type="submit"
+          [disabled]="!contactForm.get('privacy')?.value"
+          [ngClass]="contactForm.get('privacy')?.value
+          ? 'bg-[#0D63AA] hover:bg-[#0b5391]'
+          : 'bg-[#9C9C9C] cursor-not-allowed'"
+          class="w-full text-white py-3 rounded-lg transition"
+        >
+          {{ 'contact.form.submit' | translate }}
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</section>

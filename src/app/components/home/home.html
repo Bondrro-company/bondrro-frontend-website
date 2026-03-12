@@ -1,0 +1,264 @@
+<div class="relative max-w-7xl mx-auto  overflow-hidden">
+
+  <!-- Background -->
+  <div
+    class="absolute inset-0 bg-[url('/images/map.png')] bg-contain bg-no-repeat bg-center opacity-10 pointer-events-none">
+  </div>
+
+  <!-- HERO -->
+  <section class="relative">
+    <div class="max-w-7xl mx-auto px-4 lg:px-8">
+
+      <div
+        class="relative rounded-2xl overflow-hidden min-h-[380px] md:min-h-[450px] lg:min-h-[520px] flex items-center"
+        style="background-image:url('images/hero-bg.png');background-size:cover;background-position:center;">
+
+        <div class="relative z-10 w-full lg:w-1/2 px-6 md:px-10 lg:px-16 py-12 flex flex-col gap-6 text-white">
+
+          <h1 class="text-3xl sm:text-4xl lg:text-[42px] font-semibold leading-tight">
+            {{ 'home.hero.title' | translate }}
+          </h1>
+
+          <p class="text-base sm:text-lg max-w-xl">
+            {{ 'home.hero.subtitle' | translate }}
+          </p>
+
+          <button (click)="openDownloadPopup()" class="flex-shrink-0 px-7 py-3 rounded-full text-white font-medium
+            bg-white/20 backdrop-blur-2xl
+            shadow-lg ring-1 ring-white/30
+            hover:bg-white hover:text-[#0D63AA]
+            transition duration-300 w-fit">
+            {{ 'home.hero.cta' | translate }}
+          </button>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- WHAT IS -->
+  <section class="mt-16 lg:mt-30">
+
+    <div class="max-w-7xl mx-auto px-4 lg:px-8 text-center">
+
+      <div class="flex items-center justify-center gap-4 lg:gap-6 mb-6">
+
+        <div class="hidden lg:block h-[2px] w-full bg-gradient-to-r from-[#0D63AA] to-blue-200"></div>
+
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-black whitespace-nowrap">
+          {{ 'home.what_is.title_part1' | translate }}
+          <span class="text-[#0D63AA]">
+            {{ 'home.what_is.title_part2' | translate }}
+          </span>
+        </h2>
+
+        <div class="hidden lg:block h-[2px] w-full bg-gradient-to-l from-[#0D63AA] to-blue-200"></div>
+
+      </div>
+
+      <div class="space-y-4 text-black text-base sm:text-lg leading-relaxed max-w-6xl mx-auto">
+
+        <p>
+          {{ 'home.what_is.p1' | translate }}
+        </p>
+
+        <p>
+          {{ 'home.what_is.p2' | translate }}
+        </p>
+
+        <p>
+          {{ 'home.what_is.p3' | translate }}
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- TRUST SECTION -->
+  <section class="mt-20 lg:mt-32">
+
+    <div class="max-w-7xl mx-auto px-4 lg:px-8">
+
+      <!-- BLUE HEADER -->
+      <div class="bg-[#0D63AA] rounded-2xl pt-14 pb-72 sm:pb-96 px-6 lg:px-16 text-center text-white relative">
+
+       <h4 class="text-white text-xl sm:text-4xl mb-2">
+  {{ 'home.trust.title' | translate }}
+  <span class="underline text-white underline-offset-4">
+    {{ 'home.trust.titlespan' | translate }}
+  </span>
+</h4>
+        <p class="text-white max-w-4xl mx-auto text-base sm:text-lg">
+          {{ 'home.trust.subtitle' | translate }}
+        </p>
+
+      </div>
+
+
+      <!-- CARDS -->
+      <div class="relative -mt-64 md:-mt-80 max-w-6xl mx-auto">
+
+        <div class="bg-white rounded-2xl shadow-lg p-5 sm:p-6 lg:p-8">
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 auto-rows-fr">
+            <!-- CARD -->
+            <div
+              class="group border border-[#0D63AA] rounded-lg p-4 transition duration-300 hover:bg-[#0D63AA] hover:-translate-y-1 hover:shadow-lg flex flex-col h-full">
+
+              <div
+                class="w-14 h-14 flex items-center justify-center bg-[#0D63AA] text-white rounded-xl mb-4 flex-shrink-0 transition group-hover:bg-white group-hover:text-[#0D63AA]">
+                <i class="fa-solid fa-shield-halved text-2xl"></i>
+              </div>
+
+              <h4 class="font-semibold text-lg lg:text-xl mb-2 text-[#0D63AA] group-hover:text-white">
+                {{ 'home.trust.escrow.title' | translate }}
+              </h4>
+
+              <p class="text-gray-800 text-sm sm:text-base group-hover:text-white flex-grow">
+                {{ 'home.trust.escrow.desc' | translate }}
+              </p>
+
+            </div>
+
+
+            <!-- CARD -->
+            <div
+              class="group border border-[#0D63AA] rounded-lg p-4 transition duration-300 hover:bg-[#0D63AA] hover:-translate-y-1 hover:shadow-lg flex flex-col h-full">
+
+              <div
+                class="w-14 h-14 flex items-center justify-center bg-[#0D63AA] text-white rounded-xl mb-4 flex-shrink-0 transition group-hover:bg-white group-hover:text-[#0D63AA]">
+                <i class="fa-solid fa-id-card text-2xl"></i>
+              </div>
+
+              <h4 class="font-semibold text-lg lg:text-xl mb-2 text-[#0D63AA] group-hover:text-white">
+                {{ 'home.trust.identity.title' | translate }}
+              </h4>
+
+              <p class="text-gray-800 text-sm sm:text-base group-hover:text-white flex-grow">
+                {{ 'home.trust.identity.desc' | translate }}
+              </p>
+
+            </div>
+
+
+            <!-- CARD -->
+            <div
+              class="group border border-[#0D63AA] rounded-lg p-4 transition duration-300 hover:bg-[#0D63AA] hover:-translate-y-1 hover:shadow-lg flex flex-col h-full">
+
+              <div
+                class="w-14 h-14 flex items-center justify-center bg-[#0D63AA] text-white rounded-xl mb-4 flex-shrink-0 transition group-hover:bg-white group-hover:text-[#0D63AA]">
+                <i class="fa-solid fa-star text-2xl"></i>
+              </div>
+
+              <h4 class="font-semibold text-lg lg:text-xl mb-2 text-[#0D63AA] group-hover:text-white">
+                {{ 'home.trust.review.title' | translate }}
+              </h4>
+
+              <p class="text-gray-800 text-sm sm:text-base group-hover:text-white flex-grow">
+                {{ 'home.trust.review.desc' | translate }}
+              </p>
+
+            </div>
+
+
+            <!-- CARD -->
+            <div
+              class="group border border-[#0D63AA] rounded-lg p-4 transition duration-300 hover:bg-[#0D63AA] hover:-translate-y-1 hover:shadow-lg flex flex-col h-full">
+
+              <div
+                class="w-14 h-14 flex items-center justify-center bg-[#0D63AA] text-white rounded-xl mb-4 flex-shrink-0 transition group-hover:bg-white group-hover:text-[#0D63AA]">
+                <i class="fa-solid fa-handshake text-2xl"></i>
+              </div>
+
+              <h4 class="font-semibold text-lg lg:text-xl mb-2 text-[#0D63AA] group-hover:text-white">
+                {{ 'home.trust.pricing.title' | translate }}
+              </h4>
+
+              <p class="text-gray-800 text-sm sm:text-base group-hover:text-white flex-grow">
+                {{ 'home.trust.pricing.desc' | translate }}
+              </p>
+
+            </div>
+
+
+            <!-- CARD -->
+            <div
+              class="group border border-[#0D63AA] rounded-lg p-4 transition duration-300 hover:bg-[#0D63AA] hover:-translate-y-1 hover:shadow-lg flex flex-col h-full">
+
+              <div
+                class="w-14 h-14 flex items-center justify-center bg-[#0D63AA] text-white rounded-xl mb-4 flex-shrink-0 transition group-hover:bg-white group-hover:text-[#0D63AA]">
+                <i class="fa-solid fa-location-dot text-2xl"></i>
+              </div>
+
+              <h4 class="font-semibold text-lg lg:text-xl mb-2 text-[#0D63AA] group-hover:text-white">
+                {{ 'home.trust.tracking.title' | translate }}
+              </h4>
+
+              <p class="text-gray-800 text-sm sm:text-base group-hover:text-white flex-grow">
+                {{ 'home.trust.tracking.desc' | translate }}
+              </p>
+
+            </div>
+
+
+            <!-- CARD -->
+            <div
+              class="group border border-[#0D63AA] rounded-lg p-4 transition duration-300 hover:bg-[#0D63AA] hover:-translate-y-1 hover:shadow-lg flex flex-col h-full">
+
+              <div
+                class="w-14 h-14 flex items-center justify-center bg-[#0D63AA] text-white rounded-xl mb-4 flex-shrink-0 transition group-hover:bg-white group-hover:text-[#0D63AA]">
+                <i class="fa-solid fa-umbrella text-2xl"></i>
+              </div>
+
+              <h4 class="font-semibold text-lg lg:text-xl mb-2 text-[#0D63AA] group-hover:text-white">
+                {{ 'home.trust.insurance.title' | translate }}
+              </h4>
+
+              <p class="text-gray-800 text-sm sm:text-base group-hover:text-white flex-grow">
+                {{ 'home.trust.insurance.desc' | translate }}
+              </p>
+
+            </div>
+
+
+            <!-- CARD -->
+            <div
+              class="group border border-[#0D63AA] rounded-lg p-4 transition duration-300 hover:bg-[#0D63AA] hover:-translate-y-1 hover:shadow-lg flex flex-col h-full">
+
+              <div
+                class="w-14 h-14 flex items-center justify-center bg-[#0D63AA] text-white rounded-xl mb-4 flex-shrink-0 transition group-hover:bg-white group-hover:text-[#0D63AA]">
+                <i class="fa-solid fa-headset text-2xl"></i>
+              </div>
+
+              <h4 class="font-semibold text-lg lg:text-xl mb-2 text-[#0D63AA] group-hover:text-white">
+                {{ 'home.trust.support.title' | translate }}
+              </h4>
+
+              <p class="text-gray-800 text-sm sm:text-base group-hover:text-white flex-grow">
+                {{ 'home.trust.support.desc' | translate }}
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</div>
+
+<app-why-bondroo></app-why-bondroo>
+
+<app-download-popup *ngIf="showDownloadPopup" (close)="closeDownloadPopup()">
+</app-download-popup>

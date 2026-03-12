@@ -1,0 +1,213 @@
+<section class="relative mt-16 lg:mt-30 max-w-7xl mb-5 mx-auto">
+
+  <!-- ================= Newsletter ================= -->
+  <div class="max-w-5xl mx-auto px-4 relative z-10">
+
+    <div class="bg-[#E7EFF7] rounded-2xl shadow-lg p-8 sm:p-10 text-center">
+
+      <h3 class="text-2xl sm:text-3xl font-semibold text-[#0D63AA] mb-3">
+        {{ 'newsletter.title' | translate }}
+      </h3>
+
+      <p class="text-black text-base sm:text-lg mb-6">
+        {{ 'newsletter.subtitle' | translate }}
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-4">
+
+        <input type="email" [placeholder]="'newsletter.placeholder' | translate"
+          class="w-full sm:w-80 px-4 py-3 rounded-full border bg-gray-50 border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#0D63AA]" />
+
+        <button [disabled]="!agree" [ngClass]="agree
+          ? 'bg-[#0D63AA] text-white cursor-pointer'
+          : 'text-[#0D63AA] bg-gray-50 cursor-not-allowed'"
+          class="px-6 py-3 rounded-full font-bold transition whitespace-nowrap">
+
+          {{ 'newsletter.subscribe' | translate }}
+
+        </button>
+
+      </div>
+
+      <label class="flex  justify-center  gap-1 text-xs text-gray-500 cursor-pointer">
+
+        <input type="checkbox" [(ngModel)]="agree" class="w-4 h-4 accent-[#0D63AA]" />
+
+        {{ 'newsletter.consent' | translate }}
+
+      </label>
+
+    </div>
+
+  </div>
+
+
+  <!-- ================= Footer ================= -->
+<!-- ================= Footer ================= -->
+<footer class="bg-[#0D63AA] pt-32 pb-10 rounded -mt-16 text-white">
+
+  <div class="max-w-7xl mx-auto px-4 lg:px-8 sm:ml-16 ml-0">
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+
+      <!-- Column 1 -->
+ <div class="flex flex-col items-start text-left">
+
+  <img src="images/white-logo.png" class="w-44 mb-6"/>
+
+  <ul class="space-y-4 text-base sm:text-lg">
+
+    <li class="flex items-center gap-3">
+      <img src="images/i2.png" class="w-5 h-5 object-contain shrink-0"/>
+      {{ 'footer.secure_payment' | translate }}
+    </li>
+
+    <li class="flex items-center gap-3">
+      <img src="images/i1.png" class="w-5 h-5 object-contain shrink-0"/>
+      {{ 'footer.verified_users' | translate }}
+    </li>
+
+  </ul>
+
+  <!-- CONTACT -->
+  <div class="mt-6 text-base sm:text-lg">
+    <p>
+      {{ 'footer.contact_label' | translate }}
+    </p>
+
+    <p class="underline cursor-pointer">
+      {{ 'footer.contact_email' | translate }}
+    </p>
+  </div>
+
+</div>
+
+      <!-- Column 2 -->
+      <div class="flex flex-col items-start sm:ml-10 ml-0">
+
+        <h4 class="font-semibold text-xl sm:text-2xl mb-2">
+          {{ 'footer.navigation' | translate }}
+        </h4>
+
+        <div class="w-28 h-[2px] bg-white mb-5"></div>
+
+   <ul class="space-y-4 text-base sm:text-lg">
+
+  <li routerLink="/about-us" class="flex items-center gap-3 cursor-pointer hover:underline">
+    <img src="images/i3.png" class="w-5 h-5 object-contain shrink-0">
+    {{ 'footer.about_us' | translate }}
+  </li>
+
+  <li routerLink="/contact-us" class="flex items-center gap-3 cursor-pointer hover:underline">
+    <img src="images/i4.png" class="w-5 h-5 object-contain shrink-0">
+    {{ 'footer.contact_us' | translate }}
+  </li>
+
+  <li routerLink="/faq" class="flex items-center gap-3 cursor-pointer hover:underline">
+    <img src="images/i5.png" class="w-5 h-5 object-contain shrink-0">
+    {{ 'footer.faq' | translate }}
+  </li>
+
+</ul>
+
+      </div>
+
+
+      <!-- Column 3 -->
+      <div class="flex flex-col items-start sm:ml-10 ml-0">
+
+        <h4 class="font-semibold text-xl sm:text-2xl mb-2">
+          {{ 'footer.legal' | translate }}
+        </h4>
+
+        <div class="w-16 h-[2px] bg-white mb-5"></div>
+
+      <ul class="space-y-4 text-base sm:text-lg">
+
+  <li routerLink="/privacy" class="cursor-pointer hover:underline">
+    {{ 'footer.privacy_policy' | translate }}
+  </li>
+
+  <li routerLink="/terms" class="cursor-pointer hover:underline">
+    {{ 'footer.terms_conditions' | translate }}
+  </li>
+
+  <li routerLink="/impert" class="cursor-pointer hover:underline">
+    {{ 'footer.imprint' | translate }}
+  </li>
+
+  <li routerLink="/disclaimer" class="cursor-pointer hover:underline">
+    {{ 'footer.disclaimer' | translate }}
+  </li>
+
+  <li class="cursor-pointer hover:underline">
+    {{ 'footer.cookie_settings' | translate }}
+  </li>
+
+</ul>
+
+      </div>
+
+
+      <!-- Column 4 -->
+      <div class="flex flex-col items-start">
+
+        <h4 class="font-semibold text-xl sm:text-2xl mb-2">
+          {{ 'footer.download' | translate }}
+        </h4>
+
+        <div class="w-28 h-[2px] bg-white mb-5"></div>
+
+        <div class="space-y-3">
+
+          <!-- Google Play -->
+          <button
+            class="flex items-center gap-2 bg-white text-[#0D63AA] px-3 py-2 rounded-full hover:scale-105 transition w-44">
+
+            <i class="fa-brands fa-google-play text-[20px]"></i>
+
+            <div class="text-left leading-tight">
+              <p class="text-xs">
+                {{ 'footer.google_play_label' | translate }}
+              </p>
+              <p class="text-sm font-semibold">
+                {{ 'footer.google_play' | translate }}
+              </p>
+            </div>
+
+          </button>
+
+          <!-- Apple Store -->
+          <button
+            class="flex items-center gap-2 bg-white text-[#0D63AA] px-3 py-2 rounded-full hover:scale-105 transition w-44">
+
+            <i class="fa-brands fa-apple text-2xl"></i>
+
+            <div class="text-left leading-tight">
+              <p class="text-xs">
+                {{ 'footer.app_store_label' | translate }}
+              </p>
+              <p class="text-sm font-semibold">
+                {{ 'footer.app_store' | translate }}
+              </p>
+            </div>
+
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- Bottom -->
+    <div class="border-t border-blue-300 mt-10 pt-6 text-center text-blue-200 text-sm sm:text-base">
+      {{ 'footer.copyright' | translate }}
+    </div>
+
+  </div>
+
+</footer>
+
+</section>

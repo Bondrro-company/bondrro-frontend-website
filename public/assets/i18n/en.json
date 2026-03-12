@@ -1,0 +1,412 @@
+{
+  "nav": {
+    "home": "Home",
+    "how_it_works": "How It Works",
+    "faq": "FAQ",
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "download_app": "Download the App",
+    "language": "EN"
+  },
+  "popup": {
+    "download": {
+      "title": "Download the app now &",
+      "title_highlight": "set up your profile in just 2 minutes",
+      "subtitle": "Scan the QR code and become part our community!",
+      "google_play": "Get it on Google Play",
+      "app_store": "Get it on App Store"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Send Items Safely with Verified Traveler",
+      "subtitle": "Bondrro is a people-powered delivery app that connects senders with verified travelers to deliver items.",
+      "cta": "Download the App"
+    },
+    "what_is": {
+      "title_part1": "What is",
+      "title_part2": "Bondrro?",
+      "p1": "Bondrro is a trusted crowd delivery app that connects people who want to send parcels or documents with verified travelers heading to the same destination.",
+      "p2": "By using free luggage or car space on existing trips, Bondrro enables faster deliveries than traditional courier services.",
+      "p3": "Senders can deliver with confidence, while travelers earn during trips they already take, making each journey more rewarding and sustainable by reducing additional CO₂ emissions."
+    },
+    "trust": {
+      "title": "Your Trust & Safety Come",
+      "titlespan": "First",
+      "subtitle": "We’ve built multiple protection layers to make every delivery secure, transparent, and reliable. From delivery to payment, Bondrro protects both senders and travellers throughout the journey.",
+      "escrow": {
+        "title": "Escrow Payment Protection",
+        "desc": "Travellers get paid only once the item is successfully delivered and confirmed."
+      },
+      "identity": {
+        "title": "Identity Verification",
+        "desc": "All users are verified to ensure a trusted and accountable community."
+      },
+      "review": {
+        "title": "Mutual Review System",
+        "desc": "Both senders and travellers review each other after delivery to maintain quality and trust."
+      },
+      "pricing": {
+        "title": "Fair & Transparent Pricing",
+        "desc": "Senders and travellers agree on pricing together — clear, flexible, and fair."
+      },
+      "tracking": {
+        "title": "Real-Time Tracking",
+        "desc": "Track your delivery progress directly in the app at every step."
+      },
+      "insurance": {
+        "title": "Insurance Coverage",
+        "desc": "Optional insurance protects your items for extra peace of mind."
+      },
+      "support": {
+        "title": "24/7 Customer Support",
+        "desc": "Our support team is available whenever you need help."
+      }
+    },
+    "why": {
+      "title_part1": "Why to Choose",
+      "title_part2": "Bondrro?",
+      "subtitle": "A smarter, faster, and more human way to send and deliver items. Built around real journeys, real people, and real trust.",
+      "fast_delivery": {
+        "title": "Fast Delivery",
+        "desc": "Deliver items using real journeys locally or internationally, often within hours or a day."
+      },
+      "affordable": {
+        "title": "Affordable Pricing",
+        "desc": "Senders and travellers agree on fair pricing directly, with no hidden fees or inflated courier costs."
+      },
+      "trusted": {
+        "title": "Trusted Network",
+        "desc": "Verified users, mutual reviews, and clear accountability at every step of the delivery."
+      },
+      "guarantee": {
+        "title": "Delivery Guarantee",
+        "desc": "Payment is released only after delivery confirmation — or you receive a full refund."
+      },
+      "eco": {
+        "title": "Eco-Friendly Delivery",
+        "desc": "Reduce CO₂ emissions by using existing travel routes instead of creating new transport."
+      },
+      "simple_app": {
+        "title": "Simple App Experience",
+        "desc": "Post shipments or trips, communicate, track, and confirm deliveries easily in one intuitive app."
+      },
+      "flexible": {
+        "title": "Flexible Timing",
+        "desc": "From same-day deliveries to planned trips, choose what fits your schedule."
+      },
+      "end_to_end": {
+        "title": "End-to-End Delivery",
+        "desc": "Direct delivery from sender to traveller, without middlemen or unnecessary handling."
+      }
+    },
+    "emissions": {
+      "title_part1": "Reducing Emissions Through",
+      "title_part2": "Shared Travel",
+      "p1": "Bondrro is built around a simple idea: Use journeys that already exist.",
+      "p2": "By connecting senders with travelers who are already on the move, Bondrro helps reduce unnecessary transport and avoid creating new delivery routes.",
+      "approach": "This approach:",
+      "bullet1": "Lowers CO₂ emissions",
+      "bullet2": "Reduces congestion",
+      "bullet3": "Makes delivery more environmentally responsible"
+    },
+    "referral": {
+      "title": "Invite Friends & Get Rewards",
+      "subtitle": "Invite your friends to Bondrro and get 25% off your next delivery.",
+      "cta": "Download the App"
+    }
+  },
+  "trust": {
+    "data_protection": "Data Protection Compliant",
+    "data_protection_sub": "According to GDPR",
+    "ssl": "SSL Encryption",
+    "ssl_sub": "Certified & Safe",
+    "servers": "Servers in Europe",
+    "servers_sub": "EU data protection"
+  },
+  "newsletter": {
+    "title": "Join Bondrro Community",
+    "subtitle": "Get updates on new features, delivery tips, & exclusives offers",
+    "placeholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "consent": "I agree to receive newsletters from Bondrro. I can unsubscribe at any time. View our Privacy Policy"
+  },
+  "footer": {
+    "verified_users": "Verified Users",
+    "secure_payment": "Secure Payment",
+    "contact_label": "Have questions? Contact us at:",
+    "contact_email": "Contact@bondrro.com",
+    "navigation": "Navigation",
+    "about_us": "About Us",
+    "contact_us": "Contact Us",
+    "faq": "FAQ",
+    "legal": "Legal",
+    "privacy_policy": "Privacy Policy",
+    "terms_conditions": "Terms & Conditions",
+    "imprint": "Imprint",
+    "disclaimer": "Disclaimer",
+    "cookie_settings": "Cookie Settings",
+    "download": "Download",
+    "google_play_label": "Get it on",
+    "google_play": "Google Play",
+    "app_store_label": "Download on the",
+    "app_store": "App Store",
+    "copyright": "© 2026 Bondrro. All rights reserved"
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "We're here to help. Send us a message and we'll get back to you within 24 hours."
+    },
+    "section": {
+      "title": "Get in Touch",
+      "desc": "Need assistance or have a question about Bondrro? Send us a message using the contact form below and our support team will respond shortly.",
+      "direct": "You can also contact us directly at"
+    },
+    "email": "support@bondrro.com",
+    "success": {
+      "title": "Your message has been sent successfully.",
+      "desc": "Our support team will review your message and get back to you within 24 hours."
+    },
+    "form": {
+      "first_name": "First Name",
+      "first_name_placeholder": "Your Name",
+      "last_name": "Last Name",
+      "last_name_placeholder": "Your Last Name",
+      "email": "Email Address",
+      "email_placeholder": "Your Email Address",
+      "title": "Message",
+      "message": "Write your Message here",
+      "consent": "I have read the Privacy Policy and agree that my data may be processed for the purpose of responding to my inquiry.",
+      "submit": "Submit"
+    }
+  },
+  "hiw": {
+    "hero": {
+      "title": "How Bondrro Works?",
+      "subtitle": "Whether you want to send an item or travel & earn, Bondrro makes it simple, secure, and transparent from start to finish."
+    },
+    "senders": {
+      "title": "For Senders",
+      "subtitle": "A secure, app-based process that keeps you in control from start to finish.",
+      "step1": {
+        "title": "Create Your Account",
+        "desc": "Sign up and complete ID verification to join a trusted community."
+      },
+      "step2": {
+        "title": "Post Your Shipment",
+        "desc": "Post your shipment including item details, weight, and delivery destination."
+      },
+      "step3": {
+        "title": "Find a Match",
+        "desc": "Browse available trips or receive route suggestions that match your destination."
+      },
+      "step4": {
+        "title": "Confirm Pricing & Secure Payment",
+        "desc": "Agree on a price with traveler for the delivery. Payment is securely held in escrow until successful delivery."
+      },
+      "step5": {
+        "title": "Receive Your Delivery",
+        "desc": "Coordinate pickup and drop-off, track the shipment in real time, and confirm delivery once received."
+      }
+    },
+    "travelers": {
+      "title": "For Travelers",
+      "subtitle": "No extra travel required. Simply carry items along your existing route and get paid.",
+      "step1": {
+        "title": "Create Your Account",
+        "desc": "Sign up and complete ID verification for a secure experience."
+      },
+      "step2": {
+        "title": "Post Your Trip",
+        "desc": "Post your trip details including travel dates, route, and the types of items you're willing to carry."
+      },
+      "step3": {
+        "title": "Find a Match",
+        "desc": "Explore matching shipment requests or receive smart suggestions based on your travel route."
+      },
+      "step4": {
+        "title": "Confirm Pricing & Arrange Delivery",
+        "desc": "Confirm the delivery price with the sender and coordinate pickup and drop-off arrangements."
+      },
+      "step5": {
+        "title": "Receive & Get Paid",
+        "desc": "Deliver the item safely. Once delivery is confirmed, your payment is released automatically."
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Download the app now & set up your profile in just 2 minutes",
+      "faq_link": "Do you have any questions? Find answers in our FAQ"
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Do You Have Questions?",
+      "subtitle": "Find answers to the most common questions below",
+      "contact_text": "If you still need help, contact us."
+    },
+    "section_title": "FAQ",
+    "tab": {
+      "sender": "Sender",
+      "traveler": "Traveler",
+      "payment": "Payment"
+    },
+    "sender": {
+      "q1": "How do I send an item using Bondrro?",
+      "a1": "Simply create an account, verify your identity, and post a shipment request. Verified travelers heading the same way can send offers, or you can choose from matching trips. Once you agree on the price, payment is secured in escrow until delivery is confirmed.",
+      "q2": "How do I know the traveler is trustworthy?",
+      "a2": "All travelers on Bondrro go through identity verification (KYC).",
+      "q3": "How fast can my item be delivered?",
+      "a3": {
+        "p1": "Delivery speed depends on the traveler’s existing route. Many deliveries happen:",
+        "bullet1": "International: within 24–72 hours",
+        "bullet2": "Domestic: same day or within a few hours",
+        "p2": "Because items travel along real journeys already happening, delivery is often faster than traditional couriers."
+      },
+      "q4": "Can I track my shipment?",
+      "a4": "Yes. Bondrro provides real-time progress updates and in-app communication with the traveler so you always know the delivery status.",
+      "q5": "What happens if my item is not delivered?",
+      "a5": "Your payment is protected through escrow. The traveler only receives payment after delivery confirmation. If delivery fails, Bondrro’s dispute resolution process reviews the case and may issue a full refund according to platform policies.",
+      "q6": "How is the delivery price decided?",
+      "a6": "Prices are agreed between sender and traveler through the platform.",
+      "q7": "Do I need to meet the traveler personally?",
+      "a7": {
+        "p1": "Pickup and drop-off arrangements are flexible. You can:",
+        "bullet1": "Meet in person",
+        "bullet2": "Assign a trusted contact",
+        "bullet3": "Agree on a safe meeting point",
+        "bullet4": "Or send the items by post to the traveler for pickup"
+      },
+      "q8": "Can I cancel a shipment request?",
+      "a8": "Yes. You can cancel before a traveler accepts or before payment confirmation. Cancellation policies may apply after agreements are finalized."
+    },
+    "traveler": {
+      "q1": "How can I earn money as a traveler?",
+      "a1": "Post your planned trip and available luggage space. Senders requesting deliveries along your route can match with you. Alternatively, you can send delivery requests for items that match your delivery route and luggage capacity. After successful delivery confirmation, your payment is released automatically.",
+      "q2": "Do I need to travel extra distances?",
+      "a2": "No. Bondrro is designed for journeys you are already taking. You simply carry items along your existing route.",
+      "q3": "How do I become a verified traveler?",
+      "a3": "You must complete identity verification through our trusted third party. This ensures safety for everyone on the platform.",
+      "q4": "What if something goes wrong during delivery?",
+      "a4": "Bondrro provides support and dispute resolution. Communication records and delivery confirmations help fairly resolve any issue.",
+      "q5": "When do I get paid?",
+      "a5": "Your payment is held securely in escrow and released automatically once both sender and traveler confirm successful delivery.",
+      "q6": "Can I decline delivery requests?",
+      "a6": "Yes. You are free to accept or decline any request. You control what you carry and when.",
+      "q7": "Am I responsible for customs or regulations?",
+      "a7": "Yes. Travelers must comply with local laws and customs regulations of the destination. Always verify item legality before accepting a delivery.",
+      "q8": {
+        "title": "How does Bondrro protect travelers?",
+        "intro": "Bondrro protects travelers through:",
+        "bullet1": "verified senders",
+        "bullet2": "secure in-app communication",
+        "bullet3": "escrow payment guarantee",
+        "bullet4": "rating system",
+        "bullet5": "dispute mediation"
+      }
+    },
+    "payment": {
+      "q1": "How does payment work on Bondrro?",
+      "a1": "After sender and traveler agree on a price, the sender pays through the app. The payment is held securely in escrow until delivery is completed and confirmed.",
+      "q2": "What is escrow payment protection?",
+      "a2": {
+        "p1": "Escrow means Bondrro safely holds the payment during delivery.",
+        "bullet1": "Traveler is guaranteed payment after successful delivery.",
+        "bullet2": "Sender is protected if delivery fails."
+      },
+      "q3": "When is the traveler paid?",
+      "a3": "Payment is automatically released once delivery confirmation is completed by both parties.",
+      "q4": "Are there any service fees?",
+      "a4": "Yes. Bondrro charges a transparent platform fee to support secure payments, verification, and platform operations. Fees are shown before payment confirmation.",
+      "q5": "What happens if a dispute occurs?",
+      "a5": {
+        "p1": "Bondrro reviews evidence such as:",
+        "bullet1": "chat history",
+        "bullet2": "delivery confirmation",
+        "bullet3": "photos or documentation",
+        "p2": "A fair resolution is made, which may include refunds or payment adjustments."
+      },
+      "q6": "Is my payment information secure?",
+      "a6": "Yes. Bondrro uses encrypted payment processing and secure infrastructure to protect your financial data.",
+      "q7": "Can I get a refund?",
+      "a7": {
+        "p1": "Refunds may be issued if:",
+        "bullet1": "delivery is not completed",
+        "bullet2": "agreements are violated",
+        "bullet3": "disputes are resolved in your favor"
+      },
+      "q8": "Are there hidden charges?",
+      "a8": "No. Bondrro follows transparent pricing — all costs are displayed before payment.",
+      "q9": "Does Bondrro handle international payments?",
+      "a9": "Yes. Payments are processed digitally, allowing cross-border deliveries while maintaining secure transactions."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About Bondrro",
+      "tagline": "Trust, Human Connection, & Empowerment",
+      "desc": "Bondrro connects people who want to send items with verified travelers already heading in the same direction. We believe delivery can be faster, more affordable, and more personal — without adding extra transport routes."
+    },
+    "why": {
+      "title": "Why We Created Bondrro?",
+      "p1": "Sending something to someone you care about shouldn’t feel complicated or impersonal.",
+      "p2": "We created Bondrro to make delivery more human. Instead of relying only on traditional courier systems, we saw an opportunity in journeys already happening every day.",
+      "bullet1": "Travelers have free space",
+      "bullet2": "People need to send items",
+      "p3": "We built a secure way to connect them.",
+      "p4": "Bondrro was created to reduce distance between people — not just physically, but emotionally."
+    },
+    "journey": {
+      "title": "Our Journey",
+      "idea": {
+        "title": "The Idea",
+        "desc": "Seeing millions of travelers with unused space and people needing deliveries"
+      },
+      "dev": {
+        "title": "Development",
+        "desc": "Building trust infrastructure: KYC, escrow payment, reviews, & dispute resolution"
+      },
+      "launch": {
+        "title": "Launch",
+        "desc": "Connecting senders and travelers across cities and borders via Bondrro mobile app"
+      }
+    },
+    "mission": {
+      "title_part1": "Our",
+      "title_part2": "Mission",
+      "desc": "To make sending and traveling more connected, accessible, and human. We aim to simplify delivery while building trust between people across cities and countries."
+    },
+    "vision": {
+      "title_part1": "Our",
+      "title_part2": "Vision",
+      "desc": "To build the world’s most trusted crowd-powered delivery network where every journey creates value and people empower each other across borders."
+    },
+    "values": {
+      "title": "Our Values",
+      "trust": {
+        "title": "Trust First",
+        "desc": "Safety, transparency, and verification guide every decision."
+      },
+      "fairness": {
+        "title": "Fairness & Transparency",
+        "desc": "Clear pricing, escrow protection, and respectful interactions."
+      },
+      "responsibility": {
+        "title": "Responsibility & Care",
+        "desc": "We protect items, people, and their experiences on the platform."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "desc": "By using existing travel routes, we help reduce additional CO₂ emissions."
+      }
+    }
+    
+  },
+   "download_popup": {
+    "title1": "Download the app now &",
+    "title2": "set up your profile in just 2 minutes",
+    "subtitle": "Scan the QR code and become part of our community!"
+  }
+
+}

@@ -1,0 +1,16 @@
+/* Hover Effect */
+.trust-card:hover {
+  background-color: #0D63AA;
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.trust-card:hover h4,
+.trust-card:hover p {
+  color: white;
+}
+
+.trust-card:hover .icon-box {
+  background-color: white;
+  color: #0D63AA;
+}

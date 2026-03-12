@@ -1,0 +1,94 @@
+<div class="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-6">
+
+  <div class="bg-white rounded-xl max-w-6xl w-full p-6 relative shadow-2xl">
+
+    <!-- Close -->
+    <button
+      class="absolute top-6 right-6 text-2xl text-gray-900 hover:text-black"
+      (click)="closePopup()">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+
+    <div class="grid lg:grid-cols-2 gap-6 items-center px-6 lg:px-12">
+
+      <!-- LEFT CONTENT -->
+      <div>
+
+        <h2 class="text-3xl lg:text-4xl font-semibold leading-snug mb-4">
+          {{ 'download_popup.title1' | translate }}
+          <span class="text-[#1E5F9B]">
+            {{ 'download_popup.title2' | translate }}
+          </span>
+        </h2>
+
+        <p class="text-gray-500 text-lg lg:text-xl mb-8">
+          {{ 'download_popup.subtitle' | translate }}
+        </p>
+
+        <div class="flex items-center gap-6 flex-wrap">
+
+          <!-- QR -->
+          <img
+            src="images/qr.png"
+            class="w-32 h-32 lg:w-40 lg:h-40 object-contain"
+          />
+
+          <!-- Store Buttons -->
+          <div class="flex flex-col gap-4">
+
+            <!-- Google Play -->
+            <button class="flex items-center gap-3 bg-[#1E5F9B] text-white px-6 py-3 rounded-full hover:scale-105 transition w-52">
+
+              <i class="fa-brands fa-google-play text-2xl"></i>
+
+              <div class="text-left leading-tight">
+                <p class="text-xs">
+                  {{ 'footer.google_play_label' | translate }}
+                </p>
+                <p class="text-sm font-semibold">
+                  {{ 'footer.google_play' | translate }}
+                </p>
+              </div>
+
+            </button>
+
+
+            <!-- App Store -->
+            <button class="flex items-center gap-3 bg-[#1E5F9B] text-white px-6 py-3 rounded-full hover:scale-105 transition w-52">
+
+              <i class="fa-brands fa-apple text-3xl"></i>
+
+              <div class="text-left leading-tight">
+                <p class="text-xs">
+                  {{ 'footer.app_store_label' | translate }}
+                </p>
+                <p class="text-sm font-semibold">
+                  {{ 'footer.app_store' | translate }}
+                </p>
+              </div>
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- RIGHT MOBILE MOCKUP -->
+      <div class="hidden lg:flex justify-end">
+
+        <img
+          src="images/mobile-mockup.png"
+          class="h-[420px] xl:h-[500px] object-contain"
+          alt="App Preview"
+        />
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>

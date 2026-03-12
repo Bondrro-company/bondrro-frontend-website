@@ -1,0 +1,39 @@
+<div
+  *ngIf="showBanner"
+  class="fixed bottom-0 left-0 w-full bg-white shadow-xl border-t z-[1000]"
+>
+
+  <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col lg:flex-row items-center justify-between gap-6">
+
+    <!-- Text -->
+    <p class="text-lg text-gray-700 max-w-xl">
+      We use cookies to improve your experience and analyze website traffic.
+      By clicking "Accept", you agree to our use of cookies.
+      Read our
+      <a routerLink="/privacy-policy" class="text-[#0D63AA] underline">
+        Privacy Policy
+      </a>.
+    </p>
+
+    <!-- Buttons -->
+    <div class="flex gap-3">
+
+      <button
+        (click)="rejectCookies()"
+        class="px-6 py-2 rounded-full border border-gray-300 text-gray-700 hover:bg-gray-100 transition"
+      >
+        Reject
+      </button>
+
+      <button
+        (click)="acceptCookies()"
+        class="px-6 py-2 rounded-full bg-[#0D63AA] text-white hover:bg-[#0b4f87] transition"
+      >
+        Accept
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
