@@ -6,7 +6,7 @@ import { Footer } from "./components/footer/footer";
 import { AppDownloadPopup } from './components/app-download-popup/app-download-popup';
 import { CommonModule } from '@angular/common';
 import { CookieConsent } from "./components/cookie-consent/cookie-consent";
-import { TranslateService } from '@ngx-translate/core';
+import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
