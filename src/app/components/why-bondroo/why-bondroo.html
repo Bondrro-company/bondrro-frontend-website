@@ -234,11 +234,18 @@
 <div>
 
 <h3 class="text-2xl sm:text-3xl lg:text-4xl font-semibold text-black mb-4">
-{{ 'home.referral.title' | translate }}
+  {{ 'home.referral.title_part1' | translate }}
+  <span class="text-[#0D63AA]">
+    {{ 'home.referral.title_part2' | translate }}
+  </span>
 </h3>
 
 <p class="text-black mb-6 text-base sm:text-lg">
-{{ 'home.referral.subtitle' | translate }}
+  {{ 'home.referral.subtitle_part1' | translate }}
+  <span class="text-[#0D63AA] font-semibold">
+    {{ 'home.referral.subtitle_highlight' | translate }}
+  </span>
+  {{ 'home.referral.subtitle_part2' | translate }}
 </p>
 
 <button class="px-6 py-3 bg-[#0D63AA] text-white rounded-full hover:bg-[#0b5390] transition flex-shrink-0">
