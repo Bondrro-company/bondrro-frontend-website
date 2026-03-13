@@ -26,6 +26,13 @@ constructor(private translate: TranslateService, private titleService: Title) {
 } else {
   this.titleService.setTitle('Bondrro – Crowd Delivery Platform');
 }
+  this.translate.onLangChange.subscribe((event: LangChangeEvent) => {
+  if (event.lang === 'de') {
+    this.titleService.setTitle('Bondrro – Crowd-Delivery-Plattform');
+  } else {
+    this.titleService.setTitle('Bondrro – Crowd Delivery Platform');
+  }
+});
 
 }
   protected readonly title = signal('bondroo');
