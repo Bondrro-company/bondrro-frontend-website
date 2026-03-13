@@ -14,8 +14,13 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrl: './app.css'
 })
 export class App {
-  constructor(private translate: TranslateService) {
-  this.translate.use('de');
+constructor(private translate: TranslateService) {
+
+  const savedLang = localStorage.getItem('lang') || 'de';
+
+  this.translate.setDefaultLang('de');
+  this.translate.use(savedLang);
+
 }
   protected readonly title = signal('bondroo');
   showPopup = false;
