@@ -1,3 +1,8 @@
-input , textarea {
+input, textarea {
   background-color: #ffffff;
+}
+
+/* Success message spacing fix */
+.success-message {
+  margin: 25px 0;
 }
