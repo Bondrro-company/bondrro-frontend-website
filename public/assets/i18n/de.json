@@ -237,11 +237,12 @@
         "desc": "Liefere den Artikel sicher ab. Sobald die Lieferung bestätigt ist, wird deine Zahlung automatisch freigegeben."
       }
     },
-    "cta": {
-      "title": "Bereit loszulegen?",
-      "subtitle": "Lade jetzt die App herunter & erstelle dein Profil in nur 2 Minuten",
-      "faq_link": "Hast du Fragen? Finde Antworten in unserem FAQ"
-    }
+   "cta": {
+  "title_part1": "Bereit",
+  "title_part2": "loszulegen?",
+  "subtitle": "Lade jetzt die App herunter & erstelle dein Profil in nur 2 Minuten",
+  "faq_link": "Hast du Fragen? Finde Antworten in unserem FAQ"
+}
   },
   "faq": {
     "hero": {
