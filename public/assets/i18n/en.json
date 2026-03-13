@@ -110,10 +110,13 @@
       "bullet2": "Reduces congestion",
       "bullet3": "Makes delivery more environmentally responsible"
     },
-    "referral": {
-      "title": "Invite Friends & Get Rewards",
-      "subtitle": "Invite your friends to Bondrro and get 25% off your next delivery.",
-      "cta": "Download the App"
+   "referral": {
+    "title_part1": "Invite Friends &",
+   "title_part2": "Get Rewards",
+    "subtitle_part1": "Invite your friends to Bondrro and get",
+    "subtitle_highlight": "25% off",
+    "subtitle_part2": "your next delivery.",
+    "cta": "Download the App"
     }
   },
   "trust": {
