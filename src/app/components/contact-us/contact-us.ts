@@ -34,12 +34,12 @@ export class ContactUs implements OnInit {
       privacy: [false, Validators.requiredTrue]
     });
 
-    this.translate.setDefaultLang('en');
+    this.translate.setDefaultLang('de');
   }
 
   ngOnInit(): void {
 
-    const savedLang = localStorage.getItem('lang') || 'en';
+    const savedLang = localStorage.getItem('lang') || 'de';
     this.translate.use(savedLang);
 
   }
