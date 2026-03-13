@@ -238,10 +238,11 @@
       }
     },
     "cta": {
-      "title": "Ready to Get Started?",
-      "subtitle": "Download the app now & set up your profile in just 2 minutes",
-      "faq_link": "Do you have any questions? Find answers in our FAQ"
-    }
+  "title_part1": "Ready to",
+  "title_part2": "Get Started?",
+  "subtitle": "Download the app now & set up your profile in just 2 minutes",
+  "faq_link": "Do you have any questions? Find answers in our FAQ"
+}
   },
   "faq": {
     "hero": {
