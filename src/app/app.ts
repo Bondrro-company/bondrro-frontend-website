@@ -17,7 +17,7 @@ import { TranslateService, LangChangeEvent } from '@ngx-translate/core';
 export class App {
 constructor(private translate: TranslateService, private titleService: Title) {
 
-  const savedLang = localStorage.getItem('lang') || 'de';
+  const savedLang = 'de';
 
   this.translate.setDefaultLang('de');
   this.translate.use(savedLang);
