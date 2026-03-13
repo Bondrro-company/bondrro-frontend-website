@@ -15,12 +15,17 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrl: './app.css'
 })
 export class App {
-constructor(private translate: TranslateService) {
+constructor(private translate: TranslateService, private titleService: Title) {
 
   const savedLang = localStorage.getItem('lang') || 'de';
 
   this.translate.setDefaultLang('de');
   this.translate.use(savedLang);
+  if (savedLang === 'de') {
+  this.titleService.setTitle('Bondrro – Crowd-Delivery-Plattform');
+} else {
+  this.titleService.setTitle('Bondrro – Crowd Delivery Platform');
+}
 
 }
   protected readonly title = signal('bondroo');
