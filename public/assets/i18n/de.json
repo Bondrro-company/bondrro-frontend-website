@@ -111,9 +111,12 @@
       "bullet3": "macht Lieferungen umweltverträglicher"
     },
     "referral": {
-      "title": "Lade Freunde ein & erhalte Belohnungen",
-      "subtitle": "Lade deine Freunde zu Bondrro ein und erhalte 25 % Rabatt auf deine nächste Lieferung.",
-      "cta": "App herunterladen"
+    "title_part1": "Lade Freunde ein &",
+    "title_part2": "erhalte Belohnungen",
+    "subtitle_part1": "Lade deine Freunde zu Bondrro ein und erhalte",
+    "subtitle_highlight": "25 % Rabatt",
+    "subtitle_part2": "auf deine nächste Lieferung.",
+    "cta": "App herunterladen"
     }
   },
   "trust": {
