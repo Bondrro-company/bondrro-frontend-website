@@ -101,7 +101,8 @@
       }
     },
     "emissions": {
-      "title": "Emissionsreduzierung durch gemeinsame Reisen",
+      "title_part1": "Emissionsreduzierung durch",
+      "title_part2": "gemeinsame Reisen",
       "p1": "Bondrro basiert auf einer einfachen Idee: Nutze Reisen, die bereits stattfinden.",
       "p2": "Indem Bondrro Absender mit Reisenden verbindet, die bereits unterwegs sind, hilft es, unnötigen Transport zu reduzieren und die Schaffung neuer Lieferwege zu vermeiden.",
       "approach": "Dieser Ansatz:",
